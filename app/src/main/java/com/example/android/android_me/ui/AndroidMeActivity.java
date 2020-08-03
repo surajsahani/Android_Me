@@ -17,7 +17,7 @@
 package com.example.android.android_me.ui;
 
 import android.app.Fragment;
-import android.app.FragmentManager;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -49,6 +49,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
         // Fragment transaction
         fragmentManager.beginTransaction()
-                .add(R.id.)
+//                .add(R.id.head_container, headFragment)
+                .commit();
     }
 }
