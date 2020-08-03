@@ -49,7 +49,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
         // Fragment transaction
         fragmentManager.beginTransaction()
-//                .add(R.id.head_container, headFragment)
+                .add(R.id.head_container,headFragment)
                 .commit();
     }
 }
